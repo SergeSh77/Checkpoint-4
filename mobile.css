@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+}
+img {
+    width: 30px;
+    height: 30px;
+}
+header {
+    display: flex;
+    width: 100%;
+    background-color: white;
+    height: 70px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+section {
+    width: 100%;
+    height: 2000px;
+    background-image: url(img/1613217361_191-p-fon-strogii-sinii-224.jpg);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+footer {
+    height: 100px;
+    width: 100%;
+    background-color:dimgray;
+}
+.container {
+    width: 250px;
+    height: 500px;
+    display: flex;
+    padding: 15px 15px;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.block {
+    width: 235px;
+    height: 200px;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+h2 {
+    color: white;
+    font-size: 32px;
+    font-family: sans-serif;
+    text-align: center;
+}
+h1 {
+    padding-left: 20px;
+    color: black;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+p {
+    font-size: 12px;
+    text-align: center;
+}
+h3 {
+    font-size: 32px;
+    font-family: sans-serif;
+}
+.cont {
+    display: flex;
+    gap: 20px;
+    padding-right: 20px;
+}
